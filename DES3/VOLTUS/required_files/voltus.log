@@ -1,0 +1,82 @@
+
+Cadence Voltus(TM) IC Power Integrity Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.10-p003_1, built Wed Apr 29 15:56:37 PDT 2020
+Options:	
+Date:		Sun Aug 20 20:46:12 2023
+Host:		eceesrv02 (x86_64 w/Linux 3.10.0-1160.95.1.el7.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+OS:		Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+License:
+		vtsxl	Voltus Power Integrity Solution XL	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (515 mbytes). Set global soft_stack_size_limit to change the value.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_5553_5yKsiW'.
+<CMD> setLayerPreference instanceCell -isVisible 1
+<CMD> setLayerPreference instanceCell -isSelectable 1
+<CMD> setLayerPreference instanceFunction -isVisible 1
+<CMD> setLayerPreference instanceFunction -isSelectable 1
+<CMD> setLayerPreference instanceStatus -isVisible 1
+<CMD> setLayerPreference instanceStatus -isSelectable 1
+Turn off visibility of signal net in Voltus by default.
+<CMD> setLayerPreference net -isVisible 0
+<CMD> setLayerPreference clock -isVisible 0
+<CMD> read_lib -lef {/home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef /home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef}
+<CMD> set_pg_library_mode -celltype techonly -ground_pins VSS -power_pins {VDD 1.1} -filler_cells {TAPCELL_WITH_FILLER_ASAP7_75t_R FILLER_ASAP7_75t_R FILLERxp5_ASAP7_75t_R} -default_area_cap 0.01 -extraction_tech_file /home/aavyas1/libs/asap7libs/asap7libs_24/qrc/qrcTechFile_typ03_scaled4xV06
+<CMD> generate_pg_library -output ./tech_pgv
+Started PGV Library Generator at 20:46:44 08/20/2023
+
+** INFO:  (VOLTUS_LGEN-3599): Library generation settings: 
+	Mode: TECH 
+	Capacitance: area_cap 
+	Current Distribution: estimation 
+	Grid Port Definition: LEF 
+	Grid Current Sinks: LEF pin 
+	Power Gate: no
+
+** INFO:  (VOLTUS_LGEN-3598): Processing LEF files: 
+/home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef
+/home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef
+
+** INFO:  (VOLTUS_LGEN-3611): No lef leyarmap specified. Tool has
+internally generated the mapping between technology layers and lef layers
+using information in technology file and technology lef. To specify your
+own layer mapping, use set_pg_library_mode -lef_layermap.
+
+  TECH-LAYER    LEF-LAYER
+  LISD    M1
+  V0    V1
+  M1    M2
+  V1    V2
+  M2    M3
+  V2    V3
+  M3    M4
+  V3    V4
+  M4    M5
+  V4    V5
+  M5    M6
+  V5    V6
+  M6    M7
+  V6    V7
+  M7    M8
+  V7    V8
+  M8    M9
+  V8    V9
+  M9    Pad
+
+
+** INFO:  (VOLTUS_LGEN-3606): 
+Power Grid View Generation Statistics:
+        # Total number of cells: 196 
+        # TECH view created: 196 (100%)
+Finished PGV Library Generator at 20:46:56 08/20/2023 (cpu=0:00:01, real=0:00:12, peak mem=514.58MB)
+Current Voltus IC Power Integrity Solution resource usage: (total cpu=0:00:17, real=0:00:47, mem=514.58MB)
+<CMD> exit
+
+--------------------------------------------------------------------------------
+Exiting Voltus IC Power Integrity Solution on Sun Aug 20 20:46:56 2023
+  Total CPU time:     0:00:19
+  Total real time:    0:00:47
+  Peak memory (main): 514.58MB
+

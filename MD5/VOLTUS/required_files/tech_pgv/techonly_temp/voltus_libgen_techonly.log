@@ -1,0 +1,71 @@
+
+*** Command file: /tmp/ssv_tmpdir_5553_5yKsiW/voltus_libgen_5553.cmd ***
+input_type pr_techonly
+setvar process_sub_conducting_layers true
+setvar output_directory_path ./tech_pgv
+setvar generate_port_powerview true
+setvar library_name techonly
+setvar tech_file /home/aavyas1/libs/asap7libs/asap7libs_24/qrc/qrcTechFile_typ03_scaled4xV06
+setvar generate_lef_layermap true
+generic_power_names 1.1 {VDD}
+generic_ground_names 0.0 {VSS}
+cell_decap_area {*} 0.01
+filler_cell_list	{ \
+	TAPCELL_WITH_FILLER_ASAP7_75t_R\
+	FILLER_ASAP7_75t_R\
+	FILLERxp5_ASAP7_75t_R\
+}
+cell_list {*}
+detailed_powerview_cell_list {*}
+setvar default_frequency 200e+06
+lef_file_list {/home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef}
+lef_file_list {/home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef}
+
+***End of command file.***
+Started PGV Library Generator at 20:46:44 08/20/2023
+
+** INFO:  (VOLTUS_LGEN-3599): Library generation settings: 
+	Mode: TECH 
+	Capacitance: area_cap 
+	Current Distribution: estimation 
+	Grid Port Definition: LEF 
+	Grid Current Sinks: LEF pin 
+	Power Gate: no
+
+** INFO:  (VOLTUS_LGEN-3598): Processing LEF files: 
+/home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef
+/home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef
+
+** INFO:  (VOLTUS_LGEN-3611): No lef leyarmap specified. Tool has
+internally generated the mapping between technology layers and lef layers
+using information in technology file and technology lef. To specify your
+own layer mapping, use set_pg_library_mode -lef_layermap.
+
+  TECH-LAYER    LEF-LAYER
+  LISD    M1
+  V0    V1
+  M1    M2
+  V1    V2
+  M2    M3
+  V2    V3
+  M3    M4
+  V3    V4
+  M4    M5
+  V4    V5
+  M5    M6
+  V5    V6
+  M6    M7
+  V6    V7
+  M7    M8
+  V7    V8
+  M8    M9
+  V8    V9
+  M9    Pad
+
+
+** INFO:  (VOLTUS_LGEN-3606): 
+Power Grid View Generation Statistics:
+        # Total number of cells: 196 
+        # TECH view created: 196 (100%)
+Finished PGV Library Generator at 20:46:56 08/20/2023 (cpu=0:00:01, real=0:00:12, peak mem=514.58MB)
+Current Voltus IC Power Integrity Solution resource usage: (total cpu=0:00:17, real=0:00:47, mem=514.58MB)

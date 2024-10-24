@@ -1,0 +1,50 @@
+# vsim FIR_filter_mock_tss_tb -batch -do "vsim.do" -logfile FIR_filter_mock_tss_tb.log -wlf FIR_filter_mock_tss_tb.wlf 
+# Start time: 19:59:47 on Jul 13,2023
+# //  ModelSim DE 2020.2 Apr 19 2020 Linux 3.10.0-1160.76.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fir_tb_sv_unit
+# Loading work.FIR_filter_mock_tss_tb
+# Loading work.llki_discrete_sv_unit
+# Loading work.llki_discrete_if
+# Loading work.llki_discrete_master
+# Loading work.FIR_filter_mock_tss_sv_unit
+# Loading work.FIR_filter_mock_tss
+# Loading work.llki_discrete_slave
+# Loading work.FIR_filter
+# Loading work.FIR_filter_firBlock_left
+# Loading work.FIR_filter_firBlock_left_MultiplyBlock
+# Loading work.FIR_filter_firBlock_right
+# Loading work.FIR_filter_firBlock_right_MultiplyBlock
+# 
+# do vsim.do
+# 1
+# 1
+# Enable logging
+# === Running Unlocking Sequence for core_id=7 : '{core_id:00000007, attributes:00000000, key_size:00000002, base:000000007000ff00, key:'{ddddeeeeffff0000, 123456789abcdef0, 600dbabebaddade0, 0000000000000000}} ===
+# FIR_filter_mock_tss_tb.discreteMaster.unlockReq: Loading key0 = 0xddddeeeeffff0000 to core_id=7
+# FIR_filter_mock_tss_tb.dut.discreteSlave: Receiving key0 = 0xddddeeeeffff0000 to core_id=7 OK 
+# FIR_filter_mock_tss_tb.discreteMaster.unlockReq: Loading key1 = 0x123456789abcdef0 to core_id=7
+# FIR_filter_mock_tss_tb.dut.discreteSlave: Receiving key1 = 0x123456789abcdef0 to core_id=7 OK 
+# FIR_filter_mock_tss_tb.dut.discreteSlave: Received struct='{core_id:00000007, attributes:00000000, key_size:00000002, base:000000007000ff00, key:'{ddddeeeeffff0000, 123456789abcdef0, 0000000000000000, 0000000000000000}}
+# FIR_filter_mock_tss_tb.dut.discreteSlave: Expected struct='{core_id:00000007, attributes:00000000, key_size:00000002, base:000000007000ff00, key:'{ddddeeeeffff0000, 123456789abcdef0, 600dbabebaddade0, 0000000000000000}}
+# === Running clearKey for core_id=7 : ===
+# FIR_filter_mock_tss_tb.dut.discreteSlave: Receiving clear_key to core_id=7
+# Reading       17550 samples from buffer FIR_buffer
+# ==== DUT=FIR_filter_mock_tss  error=0?? Expect at least 1 ====
+# ==== DUT=FIR_filter_mock_tss TEST FAILED with 1 errors ====
+# ** Note: $finish    : fir_tb.sv(175)
+#    Time: 395 ns  Iteration: 1  Instance: /FIR_filter_mock_tss_tb
+# End time: 19:59:49 on Jul 13,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

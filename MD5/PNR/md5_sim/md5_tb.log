@@ -1,0 +1,154 @@
+# vsim md5_tb -batch -do "vsim.do" -logfile md5_tb.log -wlf md5_tb.wlf 
+# Start time: 03:09:08 on Oct 09,2023
+# //  ModelSim DE 2020.2 Apr 19 2020 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.md5_tb_sv_unit
+# Loading work.md5_tb
+# Loading work.md5
+# Loading work.INVx2_ASAP7_75t_R
+# Loading work.HB1xp67_ASAP7_75t_R
+# Loading work.BUFx4f_ASAP7_75t_R
+# Loading work.BUFx2_ASAP7_75t_R
+# Loading work.BUFx3_ASAP7_75t_R
+# Loading work.NAND3xp33_ASAP7_75t_R
+# Loading work.OAI21xp5_ASAP7_75t_R
+# Loading work.AOI222xp33_ASAP7_75t_R
+# Loading work.AOI211xp5_ASAP7_75t_R
+# Loading work.AOI22xp5_ASAP7_75t_R
+# Loading work.NAND4xp75_ASAP7_75t_R
+# Loading work.INVxp67_ASAP7_75t_R
+# Loading work.NOR2xp33_ASAP7_75t_R
+# Loading work.AO21x1_ASAP7_75t_R
+# Loading work.OAI22xp5_ASAP7_75t_R
+# Loading work.NAND2xp5_ASAP7_75t_R
+# Loading work.NAND2xp33_ASAP7_75t_R
+# Loading work.OAI21x1_ASAP7_75t_R
+# Loading work.NAND3x2_ASAP7_75t_R
+# Loading work.NAND5xp2_ASAP7_75t_R
+# Loading work.AO21x2_ASAP7_75t_R
+# Loading work.OR2x2_ASAP7_75t_R
+# Loading work.NOR4xp25_ASAP7_75t_R
+# Loading work.NAND2x1_ASAP7_75t_R
+# Loading work.AND5x1_ASAP7_75t_R
+# Loading work.XOR2x2_ASAP7_75t_R
+# Loading work.XOR2xp5_ASAP7_75t_R
+# Loading work.AOI31xp67_ASAP7_75t_R
+# Loading work.AO22x2_ASAP7_75t_R
+# Loading work.AOI21x1_ASAP7_75t_R
+# Loading work.AND2x4_ASAP7_75t_R
+# Loading work.BUFx6f_ASAP7_75t_R
+# Loading work.NAND4xp25_ASAP7_75t_R
+# Loading work.AOI21xp5_ASAP7_75t_R
+# Loading work.AOI221xp5_ASAP7_75t_R
+# Loading work.OR3x1_ASAP7_75t_R
+# Loading work.AOI311xp33_ASAP7_75t_R
+# Loading work.AND2x2_ASAP7_75t_R
+# Loading work.NAND3x1_ASAP7_75t_R
+# Loading work.OAI311xp33_ASAP7_75t_R
+# Loading work.AOI22x1_ASAP7_75t_R
+# Loading work.AND2x6_ASAP7_75t_R
+# Loading work.INVx3_ASAP7_75t_R
+# Loading work.NAND2x1p5_ASAP7_75t_R
+# Loading work.INVx1_ASAP7_75t_R
+# Loading work.NAND2x2_ASAP7_75t_R
+# Loading work.AO211x2_ASAP7_75t_R
+# Loading work.INVx4_ASAP7_75t_R
+# Loading work.INVx5_ASAP7_75t_R
+# Loading work.BUFx12f_ASAP7_75t_R
+# Loading work.XNOR2xp5_ASAP7_75t_R
+# Loading work.OA21x2_ASAP7_75t_R
+# Loading work.NOR3x1_ASAP7_75t_R
+# Loading work.OA22x2_ASAP7_75t_R
+# Loading work.NOR2x1p5_ASAP7_75t_R
+# Loading work.AND4x2_ASAP7_75t_R
+# Loading work.INVx8_ASAP7_75t_R
+# Loading work.XOR2x1_ASAP7_75t_R
+# Loading work.NOR3xp33_ASAP7_75t_R
+# Loading work.AO221x1_ASAP7_75t_R
+# Loading work.NOR2x1_ASAP7_75t_R
+# Loading work.A2O1A1Ixp33_ASAP7_75t_R
+# Loading work.AOI211x1_ASAP7_75t_R
+# Loading work.AOI221x1_ASAP7_75t_R
+# Loading work.INVx6_ASAP7_75t_R
+# Loading work.AND4x1_ASAP7_75t_R
+# Loading work.BUFx5_ASAP7_75t_R
+# Loading work.OR2x6_ASAP7_75t_R
+# Loading work.XNOR2x2_ASAP7_75t_R
+# Loading work.OR3x2_ASAP7_75t_R
+# Loading work.INVxp33_ASAP7_75t_R
+# Loading work.OA211x2_ASAP7_75t_R
+# Loading work.O2A1O1Ixp5_ASAP7_75t_R
+# Loading work.AO22x1_ASAP7_75t_R
+# Loading work.OAI22x1_ASAP7_75t_R
+# Loading work.OAI211xp5_ASAP7_75t_R
+# Loading work.XNOR2x1_ASAP7_75t_R
+# Loading work.OA222x2_ASAP7_75t_R
+# Loading work.NOR3x2_ASAP7_75t_R
+# Loading work.AO222x2_ASAP7_75t_R
+# Loading work.AOI332xp33_ASAP7_75t_R
+# Loading work.AOI31xp33_ASAP7_75t_R
+# Loading work.NOR2x2_ASAP7_75t_R
+# Loading work.AOI322xp5_ASAP7_75t_R
+# Loading work.AOI321xp33_ASAP7_75t_R
+# Loading work.AND3x1_ASAP7_75t_R
+# Loading work.AOI21xp33_ASAP7_75t_R
+# Loading work.OA31x2_ASAP7_75t_R
+# Loading work.O2A1O1Ixp33_ASAP7_75t_R
+# Loading work.NOR2xp67_ASAP7_75t_R
+# Loading work.BUFx8_ASAP7_75t_R
+# Loading work.OAI221xp5_ASAP7_75t_R
+# Loading work.AOI22xp33_ASAP7_75t_R
+# Loading work.OAI222xp33_ASAP7_75t_R
+# Loading work.BUFx10_ASAP7_75t_R
+# Loading work.AOI33xp33_ASAP7_75t_R
+# Loading work.NOR4xp75_ASAP7_75t_R
+# Loading work.OAI31xp33_ASAP7_75t_R
+# Loading work.INVx13_ASAP7_75t_R
+# Loading work.AOI331xp33_ASAP7_75t_R
+# Loading work.OR2x4_ASAP7_75t_R
+# Loading work.OR4x1_ASAP7_75t_R
+# Loading work.NOR5xp2_ASAP7_75t_R
+# Loading work.AND3x4_ASAP7_75t_R
+# Loading work.OAI21xp33_ASAP7_75t_R
+# Loading work.OAI22xp33_ASAP7_75t_R
+# Loading work.AOI32xp33_ASAP7_75t_R
+# Loading work.INVx11_ASAP7_75t_R
+# Loading work.TIEHIx1_ASAP7_75t_R
+# Loading work.TIELOx1_ASAP7_75t_R
+# Loading work.DFFHQNx1_ASAP7_75t_R
+# Loading work.DFFHQNx2_ASAP7_75t_R
+# Loading work.DFFHQNx3_ASAP7_75t_R
+# Loading work.SDFHx4_ASAP7_75t_R
+# Loading work.A2O1A1O1Ixp25_ASAP7_75t_R
+# Loading work.NAND2xp67_ASAP7_75t_R
+# Loading work.AND3x2_ASAP7_75t_R
+# Loading work.OAI31xp67_ASAP7_75t_R
+# Loading work.FAx1_ASAP7_75t_R
+# Loading work.altos_dff_err
+# Loading work.altos_dff
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'md5_core_add_1099_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /md5_tb/dut/md5_core_add_1099_U1_31 File: /home/aavyas1/research/MD5/apr/MD5.apr.v Line: 53717
+# ** Warning: (vsim-3722) /home/aavyas1/research/MD5/apr/MD5.apr.v(53717): [TFMPC] - Missing connection for port 'CON'.
+# 
+# do vsim.do
+# 1
+# 1
+# Enable logging
+# Reading         698 samples from buffer MD5_buffer
+# ==== DUT=md5 TEST PASSED  ====
+# ** Note: $finish    : md5_tb.sv(181)
+#    Time: 7330 ns  Iteration: 1  Instance: /md5_tb
+# End time: 03:09:18 on Oct 09,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 2

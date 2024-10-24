@@ -1,0 +1,90 @@
+# vsim FIR_filter_tb -batch -do "vsim.do" -logfile FIR_filter_tb.log -wlf FIR_filter_tb.wlf 
+# Start time: 04:09:16 on Oct 05,2023
+# //  ModelSim DE 2020.2 Apr 19 2020 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.FIR_filter_tb_sv_unit
+# Loading work.FIR_filter_tb
+# Loading work.FIR_filter
+# Loading work.XNOR2xp5_ASAP7_75t_R
+# Loading work.AO21x1_ASAP7_75t_R
+# Loading work.INVxp67_ASAP7_75t_R
+# Loading work.NAND2xp5_ASAP7_75t_R
+# Loading work.NOR2xp33_ASAP7_75t_R
+# Loading work.OAI21xp5_ASAP7_75t_R
+# Loading work.OAI22xp5_ASAP7_75t_R
+# Loading work.NAND2xp33_ASAP7_75t_R
+# Loading work.OR2x2_ASAP7_75t_R
+# Loading work.HB1xp67_ASAP7_75t_R
+# Loading work.BUFx2_ASAP7_75t_R
+# Loading work.BUFx3_ASAP7_75t_R
+# Loading work.BUFx5_ASAP7_75t_R
+# Loading work.BUFx10_ASAP7_75t_R
+# Loading work.BUFx8_ASAP7_75t_R
+# Loading work.BUFx6f_ASAP7_75t_R
+# Loading work.ASYNC_DFFHx1_ASAP7_75t_R
+# Loading work.TIELOx1_ASAP7_75t_R
+# Loading work.INVx1_ASAP7_75t_R
+# Loading work.INVxp33_ASAP7_75t_R
+# Loading work.OR3x1_ASAP7_75t_R
+# Loading work.NOR4xp25_ASAP7_75t_R
+# Loading work.A2O1A1Ixp33_ASAP7_75t_R
+# Loading work.FAx1_ASAP7_75t_R
+# Loading work.AND2x2_ASAP7_75t_R
+# Loading work.MAJx2_ASAP7_75t_R
+# Loading work.INVx4_ASAP7_75t_R
+# Loading work.XOR2xp5_ASAP7_75t_R
+# Loading work.altos_dff_sr_err
+# Loading work.altos_dff_sr_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_my_FIR_filter_firBlock_left_MultiplyBlock_sub_78_U2_39'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_my_FIR_filter_firBlock_left_MultiplyBlock_sub_78_U2_39 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 5587
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(5587): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_171_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_171_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 6719
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(6719): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_170_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_170_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 7001
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(7001): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_169_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_169_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 7283
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(7283): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_168_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_168_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 7565
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(7565): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_167_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_167_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 7847
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(7847): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_166_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_166_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 8129
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(8129): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_165_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_165_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 8411
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(8411): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_164_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_164_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 8693
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(8693): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_FIR_filter_firBlock_left_add_163_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/my_FIR_filter_firBlock_left_add_163_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 8975
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(8975): [TFMPC] - Missing connection for port 'CON'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add_303_U1_31'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_filter_tb/dut/add_303_U1_31 File: /home/aavyas1/research/fir/apr/FIR.apr.v Line: 9722
+# ** Warning: (vsim-3722) /home/aavyas1/research/fir/apr/FIR.apr.v(9722): [TFMPC] - Missing connection for port 'CON'.
+# 
+# do vsim.do
+# 1
+# 1
+# Enable logging
+# Reading        1000 samples from buffer FIR_buffer
+# End time: 04:09:21 on Oct 05,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 22

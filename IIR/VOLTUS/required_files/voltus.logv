@@ -1,0 +1,94 @@
+[08/20 20:46:12      0s] 
+[08/20 20:46:12      0s] Cadence Voltus(TM) IC Power Integrity Solution.
+[08/20 20:46:12      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[08/20 20:46:12      0s] 
+[08/20 20:46:12      0s] Version:	v20.10-p003_1, built Wed Apr 29 15:56:37 PDT 2020
+[08/20 20:46:12      0s] Options:	
+[08/20 20:46:12      0s] Date:		Sun Aug 20 20:46:12 2023
+[08/20 20:46:12      0s] Host:		eceesrv02 (x86_64 w/Linux 3.10.0-1160.95.1.el7.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[08/20 20:46:12      0s] OS:		Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+[08/20 20:46:12      0s] 
+[08/20 20:46:12      0s] License:
+[08/20 20:46:12      0s] 		vtsxl	Voltus Power Integrity Solution XL	20.1	checkout succeeded
+[08/20 20:46:12      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[08/20 20:46:27     12s] @(#)CDS: Voltus IC Power Integrity Solution v20.10-p003_1 (64bit) 04/29/2020 15:56 (Linux 2.6.32-431.11.2.el6.x86_64)
+[08/20 20:46:27     12s] @(#)CDS: NanoRoute 20.10-p003_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+[08/20 20:46:27     12s] @(#)CDS: AAE 20.10-p005 (64bit) 04/29/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[08/20 20:46:27     12s] @(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+[08/20 20:46:27     12s] @(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+[08/20 20:46:27     12s] @(#)CDS: CPE v20.10-p006
+[08/20 20:46:27     12s] @(#)CDS: OA 22.60-p028 Tue Dec  3 14:08:48 2019
+[08/20 20:46:27     12s] @(#)CDS: SGN 19.10-d001 (24-May-2019) (64 bit executable, Qt5.9.0)
+[08/20 20:46:27     12s] @(#)CDS: RCDB 11.15.0
+[08/20 20:46:27     12s] @(#)CDS: STYLUS 20.10-p002_1 (03/12/2020 10:11 PDT)
+[08/20 20:46:27     12s] Change the soft stacksize limit to 0.2%RAM (515 mbytes). Set global soft_stack_size_limit to change the value.
+[08/20 20:46:27     12s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_5553_5yKsiW'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_5553_5yKsiW'.
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceCell -isVisible 1
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceCell -isSelectable 1
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceFunction -isVisible 1
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceFunction -isSelectable 1
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceStatus -isVisible 1
+[08/20 20:46:28     13s] <CMD> setLayerPreference instanceStatus -isSelectable 1
+[08/20 20:46:28     13s] Turn off visibility of signal net in Voltus by default.
+[08/20 20:46:28     13s] <CMD> setLayerPreference net -isVisible 0
+[08/20 20:46:28     13s] <CMD> setLayerPreference clock -isVisible 0
+[08/20 20:46:44     15s] <CMD> read_lib -lef {/home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef /home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef}
+[08/20 20:46:45     15s] <CMD> set_pg_library_mode -celltype techonly -ground_pins VSS -power_pins {VDD 1.1} -filler_cells {TAPCELL_WITH_FILLER_ASAP7_75t_R FILLER_ASAP7_75t_R FILLERxp5_ASAP7_75t_R} -default_area_cap 0.01 -extraction_tech_file /home/aavyas1/libs/asap7libs/asap7libs_24/qrc/qrcTechFile_typ03_scaled4xV06
+[08/20 20:46:45     15s] <CMD> generate_pg_library -output ./tech_pgv
+[08/20 20:46:56     16s] Started PGV Library Generator at 20:46:44 08/20/2023
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s] ** INFO:  (VOLTUS_LGEN-3599): Library generation settings: 
+[08/20 20:46:56     16s] 	Mode: TECH 
+[08/20 20:46:56     16s] 	Capacitance: area_cap 
+[08/20 20:46:56     16s] 	Current Distribution: estimation 
+[08/20 20:46:56     16s] 	Grid Port Definition: LEF 
+[08/20 20:46:56     16s] 	Grid Current Sinks: LEF pin 
+[08/20 20:46:56     16s] 	Power Gate: no
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s] ** INFO:  (VOLTUS_LGEN-3598): Processing LEF files: 
+[08/20 20:46:56     16s] /home/aavyas1/libs/asap7libs/asap7libs_24/techlef_misc/asap7_tech_4x_170803.lef
+[08/20 20:46:56     16s] /home/aavyas1/libs/asap7libs/asap7libs_24/lef/scaled/asap7sc7p5t_24_R_4x_170912.lef
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s] ** INFO:  (VOLTUS_LGEN-3611): No lef leyarmap specified. Tool has
+[08/20 20:46:56     16s] internally generated the mapping between technology layers and lef layers
+[08/20 20:46:56     16s] using information in technology file and technology lef. To specify your
+[08/20 20:46:56     16s] own layer mapping, use set_pg_library_mode -lef_layermap.
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s]   TECH-LAYER    LEF-LAYER
+[08/20 20:46:56     16s]   LISD    M1
+[08/20 20:46:56     16s]   V0    V1
+[08/20 20:46:56     16s]   M1    M2
+[08/20 20:46:56     16s]   V1    V2
+[08/20 20:46:56     16s]   M2    M3
+[08/20 20:46:56     16s]   V2    V3
+[08/20 20:46:56     16s]   M3    M4
+[08/20 20:46:56     16s]   V3    V4
+[08/20 20:46:56     16s]   M4    M5
+[08/20 20:46:56     16s]   V4    V5
+[08/20 20:46:56     16s]   M5    M6
+[08/20 20:46:56     16s]   V5    V6
+[08/20 20:46:56     16s]   M6    M7
+[08/20 20:46:56     16s]   V6    V7
+[08/20 20:46:56     16s]   M7    M8
+[08/20 20:46:56     16s]   V7    V8
+[08/20 20:46:56     16s]   M8    M9
+[08/20 20:46:56     16s]   V8    V9
+[08/20 20:46:56     16s]   M9    Pad
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s] 
+[08/20 20:46:56     16s] ** INFO:  (VOLTUS_LGEN-3606): 
+[08/20 20:46:56     16s] Power Grid View Generation Statistics:
+[08/20 20:46:56     16s]         # Total number of cells: 196 
+[08/20 20:46:56     16s]         # TECH view created: 196 (100%)
+[08/20 20:46:56     16s] Finished PGV Library Generator at 20:46:56 08/20/2023 (cpu=0:00:01, real=0:00:12, peak mem=514.58MB)
+[08/20 20:46:56     16s] Current Voltus IC Power Integrity Solution resource usage: (total cpu=0:00:17, real=0:00:47, mem=514.58MB)
+[08/20 20:46:56     28s] <CMD> exit
+[08/20 20:46:56     28s] 
+--------------------------------------------------------------------------------
+Exiting Voltus IC Power Integrity Solution on Sun Aug 20 20:46:56 2023
+  Total CPU time:     0:00:19
+  Total real time:    0:00:47
+  Peak memory (main): 514.58MB
+

@@ -1,0 +1,34 @@
+# vsim FIR_filter_tb -batch -do "vsim.do" -logfile FIR_filter_tb.log -wlf FIR_filter_tb.wlf 
+# Start time: 02:18:17 on Sep 28,2023
+# //  ModelSim DE 2020.2 Apr 19 2020 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.FIR_filter_tb_sv_unit
+# Loading work.FIR_filter_tb
+# Loading work.FIR_filter
+# Loading work.FIR_filter_firBlock_left
+# Loading work.FIR_filter_firBlock_left_MultiplyBlock
+# Loading work.FIR_filter_firBlock_right
+# Loading work.FIR_filter_firBlock_right_MultiplyBlock
+# 
+# do vsim.do
+# 1
+# 1
+# Enable logging
+# Reading       17550 samples from buffer FIR_buffer
+# ==== DUT=FIR_filter TEST PASSED  ====
+# ** Note: $finish    : FIR_filter_tb.sv(175)
+#    Time: 175560 ns  Iteration: 1  Instance: /FIR_filter_tb
+# End time: 02:18:18 on Sep 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

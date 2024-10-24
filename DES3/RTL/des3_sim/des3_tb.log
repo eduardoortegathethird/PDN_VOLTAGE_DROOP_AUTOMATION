@@ -1,0 +1,70 @@
+# vsim des3_tb -batch -do "vsim.do" -logfile des3_tb.log -wlf des3_tb.wlf 
+# Start time: 10:53:02 on Aug 30,2023
+# //  ModelSim DE 2020.2 Apr 19 2020 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.des3_tb_sv_unit
+# Loading work.des3_tb
+# Loading work.des3
+# Loading work.DFFHQNx1_ASAP7_75t_R
+# Loading work.OAI21xp5_ASAP7_75t_R
+# Loading work.NAND2xp5_ASAP7_75t_R
+# Loading work.OA211x2_ASAP7_75t_R
+# Loading work.AND3x1_ASAP7_75t_R
+# Loading work.XNOR2xp5_ASAP7_75t_R
+# Loading work.AOI222xp33_ASAP7_75t_R
+# Loading work.NAND3xp33_ASAP7_75t_R
+# Loading work.HAxp5_ASAP7_75t_R
+# Loading work.SDFHx1_ASAP7_75t_R
+# Loading work.TIEHIx1_ASAP7_75t_R
+# Loading work.AOI22xp5_ASAP7_75t_R
+# Loading work.AOI21xp5_ASAP7_75t_R
+# Loading work.HB1xp67_ASAP7_75t_R
+# Loading work.NOR2xp33_ASAP7_75t_R
+# Loading work.INVx1_ASAP7_75t_R
+# Loading work.NOR4xp25_ASAP7_75t_R
+# Loading work.XOR2xp5_ASAP7_75t_R
+# Loading work.NAND4xp25_ASAP7_75t_R
+# Loading work.AOI221xp5_ASAP7_75t_R
+# Loading work.AOI31xp33_ASAP7_75t_R
+# Loading work.AND2x2_ASAP7_75t_R
+# Loading work.OAI222xp33_ASAP7_75t_R
+# Loading work.OR2x2_ASAP7_75t_R
+# Loading work.A2O1A1Ixp33_ASAP7_75t_R
+# Loading work.AO21x1_ASAP7_75t_R
+# Loading work.O2A1O1Ixp5_ASAP7_75t_R
+# Loading work.AOI211xp5_ASAP7_75t_R
+# Loading work.NAND5xp2_ASAP7_75t_R
+# Loading work.OAI31xp33_ASAP7_75t_R
+# Loading work.AOI32xp33_ASAP7_75t_R
+# Loading work.OAI221xp5_ASAP7_75t_R
+# Loading work.OA21x2_ASAP7_75t_R
+# Loading work.OAI22xp5_ASAP7_75t_R
+# Loading work.OAI211xp5_ASAP7_75t_R
+# Loading work.OA222x2_ASAP7_75t_R
+# Loading work.AO221x1_ASAP7_75t_R
+# Loading work.AO22x1_ASAP7_75t_R
+# Loading work.altos_dff_err
+# Loading work.altos_dff
+# 
+# do vsim.do
+# 1
+# 1
+# Enable logging
+# Reading       31050 samples from buffer DES3_buffer
+# ==== DUT=des3 TEST PASSED  ====
+# ** Note: $finish    : des3_tb.sv(186)
+#    Time: 311710 ns  Iteration: 1  Instance: /des3_tb
+# End time: 10:53:39 on Aug 30,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
